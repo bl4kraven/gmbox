@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=gmbox
+Comment=Google Music Box
+Comment[zh_CN]=谷歌音乐盒
+Comment[zh_HK]=谷歌音樂盒
+Comment[zh_TW]=谷歌音樂盒
+Exec=gmbox
+Icon=gmbox
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Audio;Player;GTK;

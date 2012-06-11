@@ -1,0 +1,7 @@
+Package: gmbox
+Version: 0.4.0
+Architecture: all
+Maintainer: muzuiget <muzuiget@gmail.com>
+Depends: python (>= 2.6), python-gtk2
+Homepage: http://code.google.com/p/gmbox/
+Description: Google music box
