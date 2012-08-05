@@ -36,19 +36,19 @@ class Player(threading.Thread):
                 break
 
     def open(self):
-        self.mpg123_request("LOAD %s" % self.song.songUrl)
+        self.mpg123_request("LOAD %s\r" % self.song.songUrl)
 
     def play(self):
-        self.mpg123_request("PAUSE")
+        self.mpg123_request("PAUSE\r")
 
     def pause(self):
-        self.mpg123_request("PAUSE")
+        self.mpg123_request("PAUSE\r")
 
     def stop(self):
-        self.mpg123_request("STOP")
+        self.mpg123_request("STOP\r")
 
     def quit(self):
-        self.mpg123_request("QUIT")
+        self.mpg123_request("QUIT\r")
 
     def seek(self):
         pass

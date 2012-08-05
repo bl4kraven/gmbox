@@ -78,7 +78,7 @@ CONFIG = {
     "download_cover" : True,
     "download_lyric" : True,
     # 播放器
-    "player_use_internal" : False,
+    "player_use_internal" : True,
     "player_path" : get_default_player(),
     "player_single" : "${URL}",
     "player_multi" : "${URLS}",
